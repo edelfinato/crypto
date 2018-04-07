@@ -20,6 +20,7 @@ public class MessageDigestUtilTest {
         String digest256 = SHA3.digest256(test.getBytes(UTF8_CHARSET));
         //then
         assertThat(digest256, is("7e3759aa1c6f94082beed27930be292d3207e5b5e3e5bab2a5eacf4b38053a54"));
+
     }
 
 
